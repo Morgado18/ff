@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+<!--  _____________________                     -->
+<!-- /_________*_*_________\    Gui Add         -->
+<!--/_______________________\   Delcio Ls       -->
+<!--|               _____   |   Josaid Ns       -->
+<!--|____           |   |   | (*_*) {*_*} [*_*] -->
+<!--|   _|          |___|   | /||\  /||\  /||\  -->
+<!--|____|__________________| _||_  _||_  _||_  -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/menuLateral.css">
+  <link rel="stylesheet" href="css/responsividade.css">
+  <link rel="stylesheet" href="css/contas.css">
+  <link rel="stylesheet" href="css/imgs/fontawe/fontawesome-free-6.0.0-web/css/all.min.css">
+  <title>STOREFF | CONTAS</title>
+</head>
+<body>
+
+  <p id="pMostraMenu"></p>
+
+  <header id="topo">
+    <div class="logo">
+      <img src="css/imgs/LOGOff.png">
+    </div>
+    <nav>
+      <ul>    
+        <li><a href="index.html">Home</a></li>
+        <li><a href="entretenimento.html">Entretenimento</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contatos.html">Contatos</a></li>
+        <li><a href="planos.html">Planos</a></li>
+        <li style="color: #fff;"><i class="fa-solid fa-cart-shopping"></i></li>
+      </ul>
+    </nav>
+  </header>
+
+  <p id="localizacao"> Home/ CONTAS </p>
+
+  <div class="contas">
+    <br>
+    <p id="descricaoP">StoreFF comercializa contas no servidor BR e SSA.</p>
+    <div class="cont">
+      <div class="cardConta">
+        <img src="css/imgs/ff.PNG">
+        <p>FREE FIRE: Em breve a StoreFF comercializará Conta gemada no servidor BR.</p>
+        <a href="#"><button>Requisitar</button></a>
+      </div>
+      <div class="cardConta">
+        <img src="css/imgs/ff.PNG">
+        <p>FREE FIRE: Em breve a StoreFF comercializará Conta gemada no servidor SSA.</p>
+        <a href="#"><button>Requisitar</button></a>
+      </div>
+    </div>
+    <b><br></b>
+  </div>
+
+  <footer>
+    <br>
+    <p><img src="css/imgs/LOGOff.png"></p>
+    <div class="foots">
+    <div class="foot">
+      <form action="">
+      <div class="email">
+      <p>Deixe seu email para estar ligado nas novidades dos novos serviços !!</p>
+      <input type="email" name="email" placeholder="Clique aqui para inserir seu email" required>
+      <input type="submit" value="Enviar">
+      </div>
+      </form>
+      <br>
+      <form action="">
+      <div class="falha">
+      <p>Informe-nos uma falha técnica</p>
+      <p id="avisoArea"></p>
+      <br>
+      <textarea name="falhaTecnica" cols="30" rows="5" placeholder="Clique aqui para opinar" id="textarea" required></textarea>
+      <input onclick="enviarArea()" type="submit" value="Enviar">
+      </div>
+      </form>
+      
+    </div>
+    <br><br>
+    <div class="footeD">
+      <form action="">
+        <p>Deixe seu id para batermos um papo no jogo e talvez se quiseres, fazer um x1 !!</p>
+        <p id="avidoID"></p>
+        <input type="number" name="idJogador" placeholder="Clique aqui para inserir id" id="inputID" required>
+        <input type="submit" value="Enviar" onclick="enviarID()">
+      </form>
+    </div>
+    </div>
+
+    <div class="pagamentos">
+      <br>
+      <img src="css/imgs/bai.JPG" alt="bai">
+      <br>
+      <img src="css/imgs/visa.PNG" alt="visa">
+    </div>
+
+    <p id="coppyright">© Todos os direitos reservado a <b>StoreFF</b></p>
+    
+    <div class="voltarAoTopo">
+    <a href="#" id="irAoTopo">
+      <div class="voltar"></div>
+    </a>
+    </div>
+  </footer>
+ 
+  <script src="js/script.js"></script>
+  <script src="js/menuSlide.js"></script>
+  
+</body>
+</html>
