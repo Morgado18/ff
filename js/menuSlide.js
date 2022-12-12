@@ -62,7 +62,7 @@ let pSlide = `<div class="slider">
     <img src="css/imgs/fundo2.PNG">
   </div>
   <div class="slide">
-    <img src="css/imgs/fundo3.JPG">
+    <img src="css/imgs/fundo3.jpg">
   </div>
   <div class="slide">
     <img src="css/imgs/fundo4.JPG">
