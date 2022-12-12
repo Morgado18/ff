@@ -1,0 +1,60 @@
+*{
+
+}
+
+.sobre{
+  margin-top: 1rem;
+  color: #fff;
+  height: auto;
+  background: #003840;
+}
+
+.sobreNos{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.membro{
+  width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid cadetblue;
+  padding: 1rem;
+  font-size: 19px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.sobreNos img{
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 100px;
+  margin: 2rem;
+}
+.sobre p{
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: cadetblue;
+}
+
+.sobre .title{
+  text-align: center;
+  margin: 1rem;
+  letter-spacing: 1px;
+  font-size:30px;
+  color: #fff;
+}
+
+.sobreEmpresa{
+  text-align: center;
+}
+.sobreEmpresa img{
+  max-width: 170px;
+}

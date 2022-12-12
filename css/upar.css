@@ -1,0 +1,37 @@
+.upar{
+  height: auto;
+  background: #003840;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.up{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.cardUpar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  width: 13.5rem;
+  height: 14rem;
+  background: #fff;
+  color: cadetblue;
+  border-radius: 5px;
+  margin: 1rem;
+  box-shadow: 2px 2px 12px cadetblue;
+}
+
+.cardUpar img{
+  max-width: 50px;
+  margin: 1rem;
+}
+.cardUpar a button{
+  margin: 1rem;
+  padding: 0.3rem 3rem;
+  cursor: pointer;
+}

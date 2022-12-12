@@ -1,0 +1,437 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: arial;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  height: 80px;
+  width: 100%;
+  background: #003840;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  flex: 20%;
+  text-align: center;
+}
+nav{
+  flex: 80%;
+}
+
+.logo img{
+  transform: scale(1.1);
+  max-width: 10rem;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li a{
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 19px;
+}
+nav ul li{
+  margin-right: 40px;
+  padding: 0.8rem;
+  cursor: pointer;
+  transition: 1.2s;
+  border-radius: 1px;
+}
+nav ul li:nth-of-type(1), nav ul li:hover{
+  background: cadetblue;
+}
+
+.welcome{
+  display: flex;
+  margin-top: 1rem;
+}
+.conteudo{
+  flex: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #003840;
+}
+.fundo{
+  flex: 40%;
+  height: auto;
+}
+
+#achou{
+  text-align: center;
+  margin: 1rem;
+  margin-right: 4rem;
+  margin-left: 4rem;
+  color: rgb(142, 12, 12);
+  font-weight: bold;
+  letter-spacing: 10px;
+  font-size: 19px;
+  width: 65%;
+}
+
+.conteudo p{
+  margin: 1rem;
+  margin-left: 4rem;
+  width: 60%;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+.botoes{
+  display: flex;
+}
+.botoes a button{
+  margin: 0.5rem;
+  padding: 0.6rem 1.5rem;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  color: #fff;
+  animation: botoesRedes 2s linear infinite;
+  cursor: pointer;
+}
+@keyframes botoesRedes {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+#fb{
+  margin-right: 1.5rem;
+  margin-left: 4rem;
+  background: linear-gradient(to right, rgb(11, 11, 140), blue, rgb(11, 11, 140));
+}
+#fb:hover{
+  background: rgb(11, 11, 140);
+}
+#insta{
+  background: linear-gradient(to right, rgb(128, 8, 92),rgb(166, 20, 122),rgb(128, 8, 92));
+}
+#insta:hover{
+  background: rgb(128, 8, 92);
+}
+
+.servicos{
+  margin-top: 1rem;
+  height:auto;
+  padding:1rem;
+  background: #003840;
+  text-align: center;
+}
+.serv{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.cardServico{
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 10.5rem;
+  height: 145px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 14px cadetblue;
+  margin: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.cardServico i img{
+  max-width: 50px;
+  margin-top: 0.6rem;
+}
+#icon1{
+  transform: scale(1.5);
+}
+h2{
+  margin: 0.6rem;
+  font-size: 17px;
+  color: #003840;
+}
+.cardServico a button{
+  margin: 1rem;
+  padding: 0.2rem 3rem;
+  cursor: pointer;
+}
+h1{
+  color: #fff;
+  font-family: italic;
+  font-size: 29px;
+}
+
+.novidades{
+  height: auto;
+  margin-bottom: 1rem;
+}
+.dds9{
+  display: flex;
+
+}
+.noticiaE, .noticiaD{
+  flex: 50%;
+  text-align: justify;
+}
+.noticiaE{
+  margin-left: 4rem;
+}
+.noticiaE p{
+  width: 80%;
+}
+.noticiaD{
+  margin-right: 4rem;
+}
+
+h3{
+  margin-left: 4.7rem;
+  margin-bottom: 0.6rem;
+  margin-top: 1rem;
+  font-family: italic;
+  font-size: 29px;
+  color: #003840;
+  position: relative;
+}
+h3::before{
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 30px;
+  left: -7px;
+  bottom: 0;
+  background: #003840;
+}
+.dds9 a button{
+  border-radius: 4px;
+  margin-top: 1rem;
+  padding: 0.7rem 1.7rem;
+  border: none;
+  outline: none;
+  background: #003840;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 1s;
+}
+.dds9 a button:hover{
+  transform: scale(1.1);
+}
+
+.anuncios{
+  height: auto;
+  text-align: center;
+  background: #003840;
+}
+.an{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.an img{
+  max-width: 80px;
+  max-height: 90px;
+  margin: 1rem;
+}
+h4{
+  margin: 1rem;
+  color: #fff;
+  font-size: 25px;
+  font-family: italic;
+  letter-spacing: 1px;
+}
+
+footer{
+  text-align: center;
+  color: #fff;
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+  height: auto;
+  background: #003840;
+}
+.foots{
+  display: flex;
+}
+#coppyright{
+  margin: 2rem;
+  letter-spacing: 1px;
+  font-size: 21px;
+}
+footer img{
+  max-width: 180px;
+  margin-bottom: 2rem;
+}
+.foot{
+  flex: 50%;
+  width: 70%;
+  font-size: 19px;
+}
+.footeD{
+  flex: 50%;
+}
+
+form{
+  letter-spacing: 1px;
+  margin-left: 2rem
+}
+
+.email{
+  text-align: left;
+}
+.email p{
+  width: 50%;
+}
+
+.email input[type="email"]{
+  font-size: 17px;
+  margin-bottom: 1rem;
+  padding: 0.7rem;
+  width: 40%;
+  border: none;
+  background: #333;
+  color: #fff;
+  letter-spacing: 1.5px;
+}
+
+textarea{
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  width: 35%;
+  margin-top: 1rem;
+}
+.falha{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+ input[type="submit"]{
+  margin-top: 1rem;
+  height: 43px;
+  width: 70px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: cadetblue;
+}
+
+.footeD{
+  text-align: left;
+  font-size: 19px;
+}
+
+.footeD input[type="number"]{
+  font-size: 17px;
+  margin-bottom: 1rem;
+  padding: 0.7rem;
+  width: 40%;
+  border: none;
+  border-bottom: 2px solid #003840;
+  background: #333;
+  color: #fff;
+  letter-spacing: 1.5px;
+}
+
+.footeD p{
+  width: 50%;
+}
+
+.voltarAoTopo{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  bottom: 3rem;
+  right: 30px;
+}
+.voltar{
+  padding: 0.2rem 1.5rem;
+  background: #fff;
+  border-radius: 5px;
+  border: 2px solid cadetblue;
+  transition: 2s;
+  text-align: center;
+}
+.voltar::before{
+  content: '^';
+  font-size: 38px;
+}
+
+.pagamentos img{
+  max-width: 90px;
+}
+
+
+/* Loading */
+
+
+.loading{
+  padding: 2rem;
+  width: 30px;
+  height: 30px;
+  border-top: 4px solid #003840;
+  border-radius: 100px;
+  animation: loaging 1s linear infinite;
+}
+@keyframes loaging {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+      transform: rotate(360deg);
+  }
+}
+.processando{
+  display: flex;justify-content: center;
+}
+
+#pg{
+  font-size: 23px;
+  letter-spacing: 1px;
+  color: rgb(126, 5, 5);
+  font-weight: bold;
+  text-align: center;
+}
+
+#localizacao{
+  font-size: 18px;
+  color: cadetblue;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  letter-spacing: 1.5px;
+}
+
+#descricaoP{
+  font-size: 25px;
+  color: rgb(217, 214, 214);
+  letter-spacing: 1px;
+  margin: 2rem;
+}
+
+.anuncios p{
+  font-size: 23px;
+  letter-spacing: 1px;
+  color: rgb(176, 14, 14);
+  font-weight: bold;
+}

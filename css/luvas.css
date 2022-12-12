@@ -1,0 +1,37 @@
+.luvas{
+  height: auto;
+  background: #003840;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.luv{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.cardLuva{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  width: 13.5rem;
+  height: 14rem;
+  background: #fff;
+  color: cadetblue;
+  border-radius: 5px;
+  margin: 1rem;
+  box-shadow: 2px 2px 12px cadetblue;
+}
+
+.cardLuva img{
+  max-width: 50px;
+  margin: 1rem;
+}
+.cardLuva a button{
+  margin: 1rem;
+  padding: 0.3rem 3rem;
+  cursor: pointer;
+}
